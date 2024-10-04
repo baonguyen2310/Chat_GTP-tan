@@ -1,0 +1,11 @@
+#chat-container {
+    background-color: aliceblue;
+}
+
+article>div {
+    color: crimson;
+}
+
+.Input-Send :hover {
+    background-color: crimson;
+}

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ChatGTP_Clone</title>
 </head>
 
@@ -31,16 +32,19 @@
     </nav>
 
     <!-- Main Chat Area -->
-    <main>
-        <article>
-            <div class="question">Người dùng: Làm thế nào để tạo giao diện web?</div>
-            <div class="answer">ChatGPT: Để tạo giao diện web, bạn cần sử dụng HTML, CSS và JavaScript...</div>
-        </article>
-        <article>
-            <div class="question">Người dùng: Cách học JavaScript hiệu quả?</div>
-            <div class="answer">ChatGPT: Bạn có thể bắt đầu với các tài liệu cơ bản, sau đó thực hành qua các dự án
-                nhỏ...</div>
-        </article>
+    <main id="chat-container">
+        <div>
+            <article>
+                <div class="question">Người dùng: Làm thế nào để tạo giao diện web?</div>
+                <div class="answer">ChatGPT: Để tạo giao diện web, bạn cần sử dụng HTML, CSS và JavaScript...</div>
+            </article>
+            <article>
+                <div class="question">Người dùng: Cách học JavaScript hiệu quả?</div>
+                <div class="answer">ChatGPT: Bạn có thể bắt đầu với các tài liệu cơ bản, sau đó thực hành qua các dự án
+                    nhỏ...
+                </div>
+            </article>
+        </div>
     </main>
 
     <!-- Suggestions Section -->
@@ -59,9 +63,10 @@
     <footer>
         <div class="Input-Send">
             <textarea placeholder="Tin nhắn Chat GPT"></textarea>
+        </div>
+        <div class="chat-submit-btn">
             <button>Gửi</button>
         </div>
-
     </footer>
 
 </body>
